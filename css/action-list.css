@@ -1,0 +1,19 @@
+@import "./messageForm.css";
+.action-list{
+  display: flex;
+  align-items: center;
+
+  background: var(--grey-3);
+}
+
+.action-icons{
+  display: flex;
+  gap: 1rem;
+  padding-inline-start: 1rem;
+  cursor: pointer
+}
+
+.action-send{
+  cursor: pointer;
+  padding-inline-end: 1rem;
+}

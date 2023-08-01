@@ -1,0 +1,5 @@
+.sidebar-header{
+  padding: 1rem;
+  display: flex;
+  background-color: var(--grey-4);
+}

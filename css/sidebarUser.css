@@ -1,0 +1,72 @@
+.sidebarUser{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.sidebarUser img{
+  border-radius: 50%;
+}
+
+.sidebarUser-details > .sidebarUser-details-bottom{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* número de lineas que se van a mostrar */
+          line-clamp: 1; 
+  -webkit-box-orient: vertical;
+  }
+.sidebarUser p span{
+  display: block;
+}
+
+.sidebarUser-details{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+
+
+}
+.sidebarUser-details-name{
+  font: var(--body-16regular);
+}
+
+.sidebarUser-details-message, .sidebarUser-details-date{
+  font: var(--caption-12regular);
+  color: var(--grey);
+}
+
+
+.sidebarUser-details-top{
+  display: flex;
+  align-items: center;
+
+}
+
+.sidebarUser-details-date{
+  position: absolute;
+  right: 0;
+  padding-inline-end: 1rem;
+}
+
+
+.sidebarUser-details-bottom{
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  overflow: hidden;
+}
+.sidebarUser-details-date{
+  justify-content: flex-end;
+}
+
+.sidebarUser-details-bottom img{
+  block-size: 50%;
+}
+
+
+
+.is-open{
+  background: var(--grey-2);
+}

@@ -1,0 +1,25 @@
+
+.messageForm{
+  position:relative;
+  padding: 1rem;
+
+}
+.messageForm  img{
+  position: absolute; 
+  left: .5rem;
+  top: calc(50% - .5rem);
+  block-size: 1rem;
+  margin-inline-start: 2rem;
+
+}
+
+.messageForm input{
+  font: var(--body-16regular);
+  border-radius: 1.25rem;
+  border: none;
+  width: 100%;
+  padding: .5rem;
+  padding-inline-start: 4rem;
+  block-size: 2rem;
+  flex:1;
+}

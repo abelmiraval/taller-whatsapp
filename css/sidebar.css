@@ -1,0 +1,17 @@
+@import './sidebar-header.css';
+@import './sidebarUser.css';
+@import './sidebarSearch.css';
+
+
+.sidebar{
+  max-inline-size: 30%;
+  max-block-size: 100vh;
+  overflow: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}

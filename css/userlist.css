@@ -1,0 +1,5 @@
+@import './userlist-header.css';
+
+.sidebar-list{
+  min-inline-size: 30%;
+}
